@@ -34,7 +34,7 @@ class TicketClassifierPipeline:
             embeddings=embeddings,
         )
 
-    def classify(self, ticket_text: str) -> dict
+    def classify(self, ticket_text: str) -> dict:
         query_embedding = self._embedder.embed([ticket_text])[0]
         retrieved = self._retriever.retrieve(query_embedding, self._config.top_k)
 
