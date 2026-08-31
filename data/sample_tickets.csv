@@ -1,0 +1,46 @@
+id,text,category
+1,I was charged twice for my subscription this month and need a refund,billing
+2,My invoice shows a charge higher than my plan price,billing
+3,I want to update my credit card on file before the next billing cycle,billing
+4,The app crashes every time I try to export a report to PDF,bug_report
+5,Uploading a file larger than 5MB throws a 500 error on the dashboard,bug_report
+6,The search bar returns no results even for terms that clearly exist,bug_report
+7,I forgot my password and the reset email never arrives,technical_support
+8,Two-factor authentication is stuck on a loading spinner and never completes,technical_support
+9,I can't log in from my phone even though the desktop app works fine,technical_support
+10,How do I change my account email address?,account_access
+11,Why was I billed for an annual plan when I selected monthly?,billing
+12,I canceled my subscription last week but was still charged this cycle,billing
+13,Can I get an itemized receipt for my last three invoices?,billing
+14,The discount code I applied at checkout didn't reduce the total,billing
+15,My payment failed but no error message explained why,billing
+16,Clicking save on the settings page does nothing and no confirmation appears,bug_report
+17,The mobile app freezes on the loading screen after the last update,bug_report
+18,Notifications are showing duplicate entries for the same event,bug_report
+19,Dark mode breaks the layout on the reports page and text is unreadable,bug_report
+20,The API returns a 502 error intermittently during peak hours,bug_report
+21,SSO login redirects me back to the login page in a loop,technical_support
+22,My session keeps expiring every few minutes even though I'm active,technical_support
+23,I'm not receiving the email verification code to activate my account,technical_support
+24,The desktop app won't launch after installing the latest update,technical_support
+25,VPN users can't reach the dashboard even though others can,technical_support
+26,I need to transfer ownership of my workspace to a coworker,account_access
+27,How do I add a teammate as an admin on our account?,account_access
+28,I was accidentally removed from the organization and need to be re-added,account_access
+29,Please merge my two accounts that were created with different emails,account_access
+30,I want to delete my account and all associated data permanently,account_access
+31,Can I change my username without losing my activity history?,account_access
+32,It would help to have a dark mode option for the dashboard,feature_request
+33,Please add the ability to export reports as CSV not just PDF,feature_request
+34,Can you add keyboard shortcuts for navigating between projects?,feature_request
+35,We'd love a Slack integration for ticket notifications,feature_request
+36,Support for custom fields on tickets would help our workflow,feature_request
+37,A bulk edit option for updating multiple tickets at once would save time,feature_request
+38,Could you add a calendar view for scheduled tasks?,feature_request
+39,What time zone are your support hours based on?,general_inquiry
+40,Do you offer a discount for nonprofit organizations?,general_inquiry
+41,Is there a public roadmap I can follow for upcoming features?,general_inquiry
+42,What's the difference between the Pro and Business plans?,general_inquiry
+43,Do you have an SLA document I can share with our procurement team?,general_inquiry
+44,Can I get a demo before committing to a paid plan?,general_inquiry
+45,Where can I find your API documentation?,general_inquiry

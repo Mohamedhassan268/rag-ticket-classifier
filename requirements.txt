@@ -1,0 +1,11 @@
+# CPU-only pins for CI parity (Build 2). Locally, torch can optionally be
+# reinstalled with a CUDA wheel via https://download.pytorch.org/whl for
+# GPU-accelerated embedding/generation during development:
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cu121
+sentence-transformers>=3.0,<4.0
+faiss-cpu>=1.8,<2.0
+transformers>=4.40,<5.0
+torch>=2.3,<3.0
+pyyaml>=6.0,<7.0
+pandas>=2.2,<3.0
+numpy>=1.26,<2.0
