@@ -1,5 +1,7 @@
 # RAG Ticket Classifier
 
+[![CI](https://github.com/Mohamedhassan268/rag-ticket-classifier/actions/workflows/ci.yml/badge.svg)](https://github.com/Mohamedhassan268/rag-ticket-classifier/actions/workflows/ci.yml)
+
 Classifies support tickets into categories by retrieving similar past tickets (FAISS + sentence-transformer embeddings) and using their labels to make the decision, with a small language model (Flan-T5) generating a plain-language rationale for the result.
 
 ## Why retrieval instead of a plain classifier
