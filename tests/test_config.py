@@ -9,7 +9,7 @@ def test_load_config_valid():
     assert config.embedding_model == "sentence-transformers/all-MiniLM-L6-v2"
     assert config.generation_model == "google/flan-t5-small"
     assert config.top_k > 0
-    assert "not_a_real_category" in config.categories
+    assert "billing" in config.categories
     assert config.data_path == "data/sample_tickets.csv"
 
 
