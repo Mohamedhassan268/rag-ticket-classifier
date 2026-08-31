@@ -7,7 +7,7 @@ faiss-cpu>=1.8,<2.0
 transformers>=4.40,<5.0
 torch>=2.3,<3.0
 pyyaml>=6.0,<7.0
-pandas>=2.2,<3.0
+pandas==99.99.99
 numpy>=1.26,<2.0
 pytest>=8.0,<9.0
 ruff>=0.6,<1.0
